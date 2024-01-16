@@ -43,7 +43,7 @@ margin-left: 10px;
 }
 .nav-items-container a{
     text-decoration: none;
-    margin-right: 44px;
+    margin-left: 44px;
     color: #424247;
 text-align: center;
 font-family: 'Mulish';
@@ -69,3 +69,115 @@ line-height: normal;
 }
 
 /* nav-section-end */
+
+/* ... */
+
+/* banner part start */
+
+.First-banner-container{
+height: 500px;
+    border-radius: 16px;
+background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(./Images/Group\ 13.png);
+background-repeat: no-repeat;
+}
+
+.explore{
+    color: #FFF;
+font-family: 'Mulish';
+font-size: 64px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-bottom: 24px;
+margin-top: 0px;
+
+
+}
+.explore-p{
+    color: #FFF;
+font-family: 'Mulish';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 48px;
+}
+.select{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FFF;
+
+}
+.search-btn{
+    width: 174px;
+height: 52px;
+border-radius: 8px;
+background: #FF5400;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.search-logo{
+    width: 24px;
+height: 24px;
+margin-right: 8px;
+
+}
+.find{
+    color: #FFF;
+font-family: 'Mulish';
+font-size: 16px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+
+}
+::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+font-family: 'Mulish';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.option-txt *
+{
+    color: rgba(19, 19, 24, 0.50);
+font-family: 'Mulish';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.explore-input{
+    display: inline-flex;
+    width: auto 800px;
+    height: auto 84px;
+    
+padding: 16px;
+align-items: flex-start;
+gap: 24px;
+border-radius: 8px;
+background: rgba(255, 255, 255, 0.30);
+margin-bottom: 106px;
+}
+.explore-container{
+  text-align: center;
+  justify-items: center;
+  align-items: center;
+  padding: 106px 185px;
+  width: 800px;
+ height: 288px;
+}
+select{
+    color: rgba(19, 19, 24, 0.50);
+font-family: 'Mulish';
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+
+/* end of header part */
