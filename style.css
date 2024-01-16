@@ -479,7 +479,7 @@ text-align: center;
 }
 .newsletter-heading{
     color: #131318;
-font-family: Mulish;
+font-family: 'Mulish';
 font-size: 24px;
 font-style: normal;
 font-weight: 800;
@@ -529,6 +529,8 @@ margin-top: 24px;
     width: 672px;
 height: 422px;
 border-radius: 16px;
+border-radius: 16px;
+background: url(./Images/Rectangle20.png), lightgray 50% / cover no-repeat;
 
 }
 .discount-btn{
@@ -537,6 +539,7 @@ height: 120px;
 transform: rotate(-19.628deg);
 border-radius: 16px;
 background: #FF5400;
+margin: 255px .48px .14px 340px;
 }
 .travel{
     color: #FFF;
