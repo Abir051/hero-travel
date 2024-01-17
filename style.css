@@ -658,8 +658,7 @@ line-height: normal;
         flex-direction: column;
     }
     .popular-Tours{
-        flex-direction: column;
-        height: 100%;
+        flex-wrap: wrap;
     }
     .popular-Tours,
     .popular-txt-container img,
