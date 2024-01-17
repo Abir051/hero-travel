@@ -41,6 +41,9 @@ margin-left: 10px;
     width: 50%;
     
 }
+.hamburger{
+    display: none;
+}
 .nav-items-container a{
     text-decoration: none;
     margin-left: 44px;
@@ -75,8 +78,8 @@ line-height: normal;
 /* banner part start */
 
 .First-banner-container{
-height: 500px;
-    border-radius: 16px;
+height: 31.25rem;
+    border-radius: 1rem;
 background:linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),url(./Images/Group\ 13.png);
 background-repeat: no-repeat;
 }
@@ -604,3 +607,111 @@ font-weight: 300;
 line-height: normal;
 }
 
+
+/* responsive part  */
+@media screen and (max-width: 960px) {
+    .nav-items-container{
+        display: none;
+    }
+    .hamburger{
+        display: block;
+    }
+ .popular-Tours{
+    flex-direction: column;
+    align-items: center;
+ }
+    .flex-pricture{
+        flex-direction: column;
+        align-items: center;
+    }
+   
+.choose-us-ractangle{
+    flex-direction: column;
+}
+
+.site-name,
+    .color-txt {
+        font-size: 24px;
+        max-height: none;
+        margin-left: 0;
+    }
+    
+    .First-banner-container {
+        height: 100%;
+        border-radius: 1rem;
+        background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/Group\ 13.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+
+    .explore,
+    .explore-p,
+    .explore-input
+    {
+        width: 100%;
+        text-align:start;
+        margin-left: 0px;
+    }
+    .explore-input {
+        display: flex;
+        flex-direction: column;
+    }
+    .popular-Tours{
+        flex-direction: column;
+        height: 100%;
+    }
+    .popular-Tours,
+    .popular-txt-container img,
+    .choose-destination,
+    .destination-heading,
+    .destination-p,
+    .flex-pricture,
+    .a,
+    .b,
+    .c,
+    .choose-us-ractangle-1,
+    .choose-us-heading,
+    .chose-us-p,
+    .choose-us-reactangle-2,
+    .choose-us-ractangle,
+    .choose-us-reactangle-3,
+    .deals-section,
+    .satorini-1,
+    .satorini-2,
+    .satorini-3,
+    .package-btn,
+    .sat-1,
+    .sat-2,
+    .sat-3,
+    .perfect-place-section,
+    .pp,
+    .pp-ul,
+    .perfect-place-txt,
+    .btn2,
+    .newsletter-section,
+    .newsletter,
+    .newsletter-heading,
+    .newsletter-p,
+    .nl-hr,
+    .nl-name,
+    .nl-email,
+    .Subscribe,
+    .discount,
+    .discount-btn,
+    .travel,
+    .Save,
+    footer,
+    .footer-img-text,
+    .footer-p,
+    .footer-hr,
+    .copywrite {
+        width: 100%;
+        margin: 0;
+        flex-direction: column;
+        flex-wrap: wrap;
+        gap: 24px;
+    }
+    .footer-img-text {
+        flex-direction: column;
+}
