@@ -620,6 +620,9 @@ line-height: normal;
     flex-direction: column;
     align-items: center;
  }
+ body{
+    margin:auto;
+ }
     .flex-pricture{
         flex-direction: column;
         align-items: center;
@@ -642,17 +645,12 @@ line-height: normal;
         background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(./Images/Group\ 13.png);
         background-repeat: no-repeat;
         background-size: cover;
+        margin: 0 auto;
     }
     
-
-    .explore,
-    .explore-p,
-    .explore-input
-    {
-        width: 100%;
-        text-align:start;
-        margin-left: 0px;
-    }
+   .explore-container{
+    align-items: center;
+   }
     .explore-input {
         display: flex;
         flex-direction: column;
@@ -710,6 +708,7 @@ line-height: normal;
         flex-direction: column;
         flex-wrap: wrap;
         gap: 24px;
+        margin: 0 auto;
     }
     .footer-img-text {
         flex-direction: column;
